@@ -1,0 +1,56 @@
+# Node modules (root + frontend + backend)
+node_modules/
+backend/node_modules/
+
+# Environment variables (root + frontend + backend)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+backend/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Vite (frontend)
+frontend/vite.config.js.timestamp-*
+frontend/vite.deps.json
+
+# Coverage
+coverage/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Server (backend)
+*.pid
+*.seed
+*.pid.lock
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backend uploads (optional)
+backend/uploads/
+ 
