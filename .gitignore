@@ -1,6 +1,7 @@
 # Node modules (root + frontend + backend)
 node_modules/
 backend/node_modules/
+.env
 
 # Environment variables (root + frontend + backend)
 .env
